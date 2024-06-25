@@ -1,4 +1,4 @@
-Switch LLM Api providers with 1 line of code.
+Switch LLM Api providers with 1 line of code 🤖🪄
 
 ```python
 print("\n\n\nANTHROPIC Example\n\n\n")
