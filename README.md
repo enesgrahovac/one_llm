@@ -1,5 +1,9 @@
 Switch LLM Api providers with 1 line of code 🤖🪄
 
+Open-source LLM adapter.
+
+Currently supporting OpenAI and Anthropic.
+
 ```python
 print("\n\n\nANTHROPIC Example\n\n\n")
 model_name = "claude-3-haiku-20240307"
@@ -17,3 +21,12 @@ print(openai_response)
 
 This example shows how you can switch from an Anthropic model to an OpenAI model with a single line of code change.
 
+# Running locally
+
+Set the python path to call the one_llm package
+
+`export PYTHONPATH=$(pwd)`
+
+Run the example
+
+`python one_llm/llm.py`
